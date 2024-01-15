@@ -10,7 +10,8 @@ public class Solution {
         int six = 6;
 
         six++;
-
+        six++;
+        six++;
 
 
         System.out.println(six);
