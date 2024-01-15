@@ -13,7 +13,11 @@ public class Solution {
         if (age < 18 && age >=6) {
             System.out.println("нужно ходить в школу");
         }
-        else if
+        else if (age>=18) {
             System.out.println("пора в институт");
+        }
+        else if(age<6) {
+            System.out.print("");
+        }
     }
 }
