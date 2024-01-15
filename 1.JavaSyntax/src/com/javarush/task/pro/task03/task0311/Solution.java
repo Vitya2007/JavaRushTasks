@@ -11,8 +11,9 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         double digit1 = scanner.nextDouble();
         double digit2 = scanner.nextDouble();
-        if (digit1 == digit2) {
+        if (Math.abs(digit1-digit2)< 0.000001) {
             System.out.println("числа равны");
-        } else System.out.println("числа не равны");
+        }
+        else System.out.println("числа не равны");
     }
 }
