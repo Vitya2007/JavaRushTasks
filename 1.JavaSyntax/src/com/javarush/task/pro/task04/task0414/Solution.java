@@ -11,14 +11,11 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
         int number = scanner.nextInt();
-        do
-        {
+        do {
             System.out.println(str);
             number--;
         }
-        while(number>0 && number <4);
-
-
+        while (number > 0 && number < 4);
 
 
     }
